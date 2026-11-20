@@ -87,4 +87,4 @@ Packaging is deterministic and allowlisted. It checks version consistency and th
 
 Keep handwritten source formatting consistent manually; no formatter package is used. Automated tests use synthetic pages and isolated Chromium profiles; they never automate the signed-in Helium profile.
 
-See the [test report](docs/TEST_REPORT.md) for automated checks, transition and icon-refresh validation, native Helium evidence, output PDFs, preservation fallbacks and remaining live-matrix gaps. Native 0.2.0 captures are under **artifacts/v0.2/**; synthetic regression screenshots are under **artifacts/screenshots/**. Screenshots, document links, PDFs and development dependencies are excluded from the installation ZIP.
+See the [test report](docs/TEST_REPORT.md) for automated checks, transition and icon-refresh validation, native Helium evidence, output PDFs, preservation fallbacks and remaining live-matrix gaps. Native 0.2.0 captures were recorded under **artifacts/v0.2/**. Browser tests generate synthetic regression screenshots under **artifacts/screenshots/**. Screenshots, document links, PDFs and development dependencies are excluded from the installation ZIP.

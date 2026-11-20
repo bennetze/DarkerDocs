@@ -86,7 +86,7 @@ The final benchmark recorded 0.3 ms median / 0.4 ms p95 redraw batches and 225.9
 
 The synthetic benchmark uses 3,000 DOM cells, 16 additional canvases, 40 redraw iterations and 12 theme changes with reduced motion. It asserts resource limits and intrinsic popup sizing; timings are descriptive, not a cross-device performance guarantee. Full rescans can still take over a second in this heavy fixture. Results: [performance.json](../artifacts/performance.json).
 
-Synthetic workflow PDFs and print screenshots are under `artifacts/synthetic-output/`. Poppler inspection found one page in every PDF; within each app all four rendered pixel buffers exactly matched Default. The four representative rendered outputs were visually inspected. These PDFs are browser fixtures, not new exports from the signed-in Google editors. [PDF checks](../artifacts/synthetic-output/pdf-verification.json).
+Browser tests generate synthetic workflow PDFs and temporary print screenshots under `artifacts/synthetic-output/`. Poppler inspection found one page in every PDF; within each app all four rendered pixel buffers exactly matched Default. The four representative rendered outputs were visually inspected. These PDFs are browser fixtures, not new exports from the signed-in Google editors. [PDF checks](../artifacts/synthetic-output/pdf-verification.json).
 
 ### Package verification
 
@@ -120,7 +120,7 @@ Validation: **62 automated checks passed: 5 Node checks and the complete 57-chec
 
 Direct Helium check: reloaded the unpacked **0.2.1** extension, refreshed the retained Docs fixture and exercised the actual toolbar popup in **Cream, Default, Dark Grey and OLED Black**. Observed the graduated transition and complete footer; the new icon was visible. The original **OLED Black** preference was restored. The final Docs surface retained its formatted text, table and color-test image without a preservation/reload notice. Native screenshots were inspected through computer-use tooling; no new native artifact files are claimed. Live Sheets, Slides, Forms and native exports were not repeated for this motion change; their earlier evidence and broader gaps remain below.
 
-Synthetic midpoint captures are **artifacts/screenshots/{docs,sheets,slides,forms}-transition-midpoint.png**. The current installation ZIP is **artifacts/DarkerDocs-0.2.1.zip**, with **artifacts/DarkerDocs-0.2.1.sha256**. All **20 entries** match the unpacked runtime files byte for byte; the SHA-256 is **0ca0812e3bc121f53f53b1e03c2e24512d0108622ffab624bd8d35b5b0020488**. Manifest, package and lock versions are **0.2.1**. The historical delivery section below describes 0.2.0.
+The transition tests generate temporary midpoint captures at **artifacts/screenshots/{docs,sheets,slides,forms}-transition-midpoint.png**. The current installation ZIP is **artifacts/DarkerDocs-0.2.1.zip**, with **artifacts/DarkerDocs-0.2.1.sha256**. All **20 entries** match the unpacked runtime files byte for byte; the SHA-256 is **0ca0812e3bc121f53f53b1e03c2e24512d0108622ffab624bd8d35b5b0020488**. Manifest, package and lock versions are **0.2.1**. The historical delivery section below describes 0.2.0.
 
 ## 0.2.0 baseline
 
@@ -177,7 +177,7 @@ The final commands were **npm test** and **npm run test:browser**. Machine-reada
 | Reduced motion | PASS | Theme animation skipped |
 | Ambiguous/oversized surfaces | PASS as preservation fallback | Original readable surface retained, original serialization unchanged, appropriate notice; not counted as full content theming |
 
-Synthetic screenshots are in [artifacts/screenshots](../artifacts/screenshots/). Native screenshots are separately named in [artifacts/v0.2](../artifacts/v0.2/). Synthetic fixtures exercise extension behavior; they are not a simulation of Google's complete editing engine.
+Browser tests generate synthetic screenshots in [artifacts/screenshots](../artifacts/screenshots/). Native screenshots are separately named in [artifacts/v0.2](../artifacts/v0.2/). Synthetic fixtures exercise extension behavior; they are not a simulation of Google's complete editing engine.
 
 ## Direct Helium evidence
 

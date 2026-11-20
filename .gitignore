@@ -10,7 +10,7 @@ npm-debug.log*
 /playwright-report/
 /playwright/.cache/
 
-# Generated synthetic captures. Keep the README preview and PDF verification.
+# Temporary synthetic captures. Keep the README preview and PDF verification.
 /artifacts/screenshots/*.png
 !/artifacts/screenshots/popup-dark.png
 !/artifacts/screenshots/live-*.png

@@ -137,6 +137,7 @@ Forms preview currently prevents real submission. Record that scenario as **bloc
 
 - Distinguish **pass**, **fail**, **blocked**, **unverified** and **preservation fallback**. Synthetic tests do not prove Google's complete editing engine works.
 - Keep native captures separate from synthetic regression screenshots. Current native evidence is under `artifacts/v0.2/`; synthetic scenes are under `artifacts/screenshots/`.
+- Delete images created for demos, checks, debugging or other temporary uses as soon as they are no longer needed. Before finishing a task, remove any unneeded images it generated, including duplicate captures and intermediate exports. Keep images still used by the extension, documentation, tests, retained evidence or requested deliverables.
 - Preserve canonical editor links in the report; do not publish transient presentation/authentication tokens.
 - Verify original print previews and saved output, including page counts. Never send a physical print job as a test.
 - The broader live matrix remains partial: advanced Docs editing/views/comments, Sheets image/tab variants, richer Slides content/notes, Forms question types/header images/sections/validation, and additional export formats. Consult the report and close relevant gaps instead of claiming exhaustive acceptance.
