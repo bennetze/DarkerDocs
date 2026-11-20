@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" data-dd-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>DarkerDocs</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/icon-32.png"
+    />
+    <link rel="stylesheet" href="../shared/themes.css" />
+    <link rel="stylesheet" href="popup.css" />
+    <script src="../shared/core.js" defer></script>
+    <script src="popup.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img
+        class="brand-mark"
+        src="../assets/icon-32.png"
+        srcset="../assets/icon-64.png 2x"
+        width="32"
+        height="32"
+        alt=""
+      />
+      <h1>DarkerDocs</h1>
+      <span class="version">Appearance</span>
+    </header>
+    <main>
+      <div class="intro">
+        <h2>Your Workspace, your light.</h2>
+        <p>Choose a little more comfort.</p>
+      </div>
+      <section class="appearance" aria-labelledby="appearance-title">
+        <div class="section-heading">
+          <h3 id="appearance-title">Color theme</h3>
+          <output
+            id="selection"
+            for="theme"
+            aria-live="polite"
+            aria-atomic="true"
+            >Dark Grey</output
+          >
+        </div>
+        <div class="slider-wrap">
+          <div class="slider-track" aria-hidden="true">
+            <i></i><i></i><i></i><i></i>
+          </div>
+          <input
+            id="theme"
+            type="range"
+            min="0"
+            max="3"
+            step="1"
+            value="1"
+            aria-label="Color theme"
+            aria-valuetext="Dark Grey"
+            disabled
+          />
+        </div>
+        <div class="theme-labels">
+          <button type="button" data-theme="oled" aria-pressed="false" disabled>
+            <span class="swatch oled"></span>OLED Black</button
+          ><button type="button" data-theme="dark" aria-pressed="true" disabled>
+            <span class="swatch dark"></span>Dark Grey</button
+          ><button
+            type="button"
+            data-theme="default"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="swatch default"></span>Default</button
+          ><button
+            type="button"
+            data-theme="cream"
+            aria-pressed="false"
+            disabled
+          >
+            <span class="swatch cream"></span>Cream
+          </button>
+        </div>
+      </section>
+      <div class="preview" data-app="docs">
+        <div
+          class="preview-tabs"
+          role="group"
+          aria-label="Illustrative app preview"
+        >
+          <button type="button" data-preview="docs" aria-pressed="true">
+            Docs</button
+          ><button type="button" data-preview="sheets" aria-pressed="false">
+            Sheets</button
+          ><button type="button" data-preview="slides" aria-pressed="false">
+            Slides</button
+          ><button type="button" data-preview="forms" aria-pressed="false">
+            Forms
+          </button>
+        </div>
+        <div class="preview-scene" aria-hidden="true">
+          <div class="preview-bar"><span></span><i></i><i></i><i></i></div>
+          <div class="preview-body">
+            <div class="preview-sheet">
+              <div class="preview-grid"></div>
+              <div class="preview-form"><i></i><i></i></div>
+              <b></b><i></i><i></i><i></i>
+              <div class="preview-colors">
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span id="preview-caption" class="preview-caption"
+          >Comfort on screen. Original in your files.</span
+        >
+      </div>
+      <p class="applies">Applies to Docs, Sheets, Slides &amp; Forms</p>
+      <p class="preservation">
+        Text and surfaces adapt for comfort. Images and saved document colors
+        stay original.
+      </p>
+      <div class="status-row">
+        <p id="status" class="status" role="status" aria-live="polite">
+          Loading your preference…
+        </p>
+        <button type="button" id="retry" hidden>Retry</button>
+      </div>
+      <a
+        class="help-link"
+        href="../diagnostics.html"
+        target="_blank"
+        rel="noopener"
+        >Help &amp; diagnostics</a
+      >
+    </main>
+    <footer>
+      <svg viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M10 2 3 5v5c0 4 7 8 7 8s7-4 7-8V5z" />
+        <path d="m7 10 2 2 4-4" /></svg
+      >Only on this browser. Always private.
+    </footer>
+  </body>
+</html>

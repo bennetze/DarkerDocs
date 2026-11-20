@@ -1,0 +1,2414 @@
+{
+  "config": {
+    "configFile": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/playwright.config.cjs",
+    "rootDir": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.cjs"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "artifacts/browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "extension.spec.cjs",
+      "file": "extension.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "docs / oled: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 358,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:46.625Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-49331d3737efe9cd3c4f",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "docs / dark: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 403,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:47.449Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-44437c08fef9bc2e6dac",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "docs / default: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 309,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:47.858Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-9dc4239453f54a7c983e",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "docs / cream: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 401,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:48.173Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-0a430c87e69351fb09a0",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "sheets / oled: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 405,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:48.580Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-bec83ab8b36b649ebf91",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "sheets / dark: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 388,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:48.990Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-c21c5bad83e251f2a977",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "sheets / default: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 301,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:49.383Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-b7f5ab9565275db4a5e3",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "sheets / cream: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 386,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:49.690Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-bf451cdb35c936fbbe69",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "slides / oled: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 411,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:50.082Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-a84ecbbb7225d748f115",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "slides / dark: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 378,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:50.498Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-a9ac0f2c8b04f425f696",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "slides / default: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 294,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:50.882Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-1a311789b37751431b75",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "slides / cream: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 379,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:51.181Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-6bbeefcf53a5dab48027",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "forms / oled: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 388,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:51.565Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-3fa9565b4866ce9ee71e",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "forms / dark: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 377,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:51.958Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-e77f17f6497214d317bc",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "forms / default: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 293,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:52.340Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-fbb08fff13613c2a735b",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "forms / cream: full surfaces, dynamic UI and original source",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 380,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:52.639Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-3b30b00bfc160a9314ab",
+          "file": "extension.spec.cjs",
+          "line": 6,
+          "column": 63
+        },
+        {
+          "title": "popup / oled: selected theme, complete panel below height cap and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 175,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:53.023Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-2fa81b99d8e2de4fc9ae",
+          "file": "extension.spec.cjs",
+          "line": 16,
+          "column": 27
+        },
+        {
+          "title": "popup / dark: selected theme, complete panel below height cap and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 178,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:53.204Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-3b73b24ee8f12c991232",
+          "file": "extension.spec.cjs",
+          "line": 16,
+          "column": 27
+        },
+        {
+          "title": "popup / default: selected theme, complete panel below height cap and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 169,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:53.387Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-cc4387e5181b5ebbe31c",
+          "file": "extension.spec.cjs",
+          "line": 16,
+          "column": 27
+        },
+        {
+          "title": "popup / cream: selected theme, complete panel below height cap and screenshot",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 178,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:53.562Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-700c8af28f40a8be3801",
+          "file": "extension.spec.cjs",
+          "line": 16,
+          "column": 27
+        },
+        {
+          "title": "docs: all theme transitions change display, preserve native pixels and restore Default",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 47471,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:04:53.745Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-d6d6331caa9c558b205c",
+          "file": "extension.spec.cjs",
+          "line": 17,
+          "column": 37
+        },
+        {
+          "title": "sheets: all theme transitions change display, preserve native pixels and restore Default",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 48453,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:05:41.220Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-f3ce2db502ae06c3b55b",
+          "file": "extension.spec.cjs",
+          "line": 17,
+          "column": 37
+        },
+        {
+          "title": "slides: all theme transitions change display, preserve native pixels and restore Default",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 48505,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:06:29.678Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-1a2f3e5590260fdf1830",
+          "file": "extension.spec.cjs",
+          "line": 17,
+          "column": 37
+        },
+        {
+          "title": "forms: all theme transitions change display, preserve native pixels and restore Default",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 90000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 47543,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:07:18.188Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-864cc585d0685feb55ef",
+          "file": "extension.spec.cjs",
+          "line": 17,
+          "column": 37
+        },
+        {
+          "title": "native print surfaces and serialization stay original in every theme",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8245,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:05.736Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-92df41d1557c8e377b5d",
+          "file": "extension.spec.cjs",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "keyboard slider, labels, persistence and storage failure retry",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 261,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:13.987Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-60f8a81239ad17885bbe",
+          "file": "extension.spec.cjs",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "a transparent title layer stays transparent and native styles never change",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 314,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:14.253Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-f827301f8aef2d309d99",
+          "file": "extension.spec.cjs",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "Forms cards, editable text, pastel backgrounds and newly inserted dialogs all theme",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 329,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:14.572Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-66d09ffc66fab1b8e53e",
+          "file": "extension.spec.cjs",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "Slides artwork and preview SVGs stay original; surrounding sidebar themes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 318,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:14.905Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-3cd0cfc53cb0b096dc4d",
+          "file": "extension.spec.cjs",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "reduced motion skips the theme animation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 195,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:15.228Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-86241649b05dc83b7839",
+          "file": "extension.spec.cjs",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "tooltips, CSS arrows, title focus and changing native control states stay readable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 344,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:15.427Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-ea2d7ae379d8ca8bdb92",
+          "file": "extension.spec.cjs",
+          "line": 42,
+          "column": 1
+        },
+        {
+          "title": "theme transition finishes without waiting for a suppressed animation frame",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1237,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m24\u001b[39m\n\nCall Log:\n- Timeout 1500ms exceeded while waiting on the predicate",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m24\u001b[39m\n\nCall Log:\n- Timeout 1500ms exceeded while waiting on the predicate\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/extension.spec.cjs:49:148",
+                    "location": {
+                      "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/extension.spec.cjs",
+                      "column": 148,
+                      "line": 49
+                    },
+                    "snippet": "  47 | });\n  48 | test('theme transition finishes without waiting for a suppressed animation frame',async({page})=>{\n> 49 |  await workspace(page);await expect(page.locator('html')).toHaveAttribute('data-dd-theme','dark');await page.evaluate(()=>{window.requestAnimationFrame=()=>0;__changeTheme('cream');});await expect(page.locator('html')).toHaveAttribute('data-dd-theme','cream');await expect.poll(()=>page.evaluate(()=>document.getAnimations().length),{timeout:2000,intervals:[50,100,200]}).toBe(0);\n     |                                                                                                                                                    ^\n  50 | });\n  51 | test('masked UI icons use foreground contrast while retaining their native mask',async({page})=>{\n  52 |  await workspace(page);await page.locator('#docs-chrome').evaluate(e=>e.insertAdjacentHTML('beforeend','<span id=\"lock\" style=\"display:block;width:18px;height:18px;background:#004a77;mask-image:linear-gradient(#000,#000)\"></span>'));"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/extension.spec.cjs",
+                        "column": 148,
+                        "line": 49
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m0\u001b[39m\nReceived: \u001b[31m24\u001b[39m\n\nCall Log:\n- Timeout 1500ms exceeded while waiting on the predicate\n\n  47 | });\n  48 | test('theme transition finishes without waiting for a suppressed animation frame',async({page})=>{\n> 49 |  await workspace(page);await expect(page.locator('html')).toHaveAttribute('data-dd-theme','dark');await page.evaluate(()=>{window.requestAnimationFrame=()=>0;__changeTheme('cream');});await expect(page.locator('html')).toHaveAttribute('data-dd-theme','cream');await expect.poll(()=>page.evaluate(()=>document.getAnimations().length),{timeout:2000,intervals:[50,100,200]}).toBe(0);\n     |                                                                                                                                                    ^\n  50 | });\n  51 | test('masked UI icons use foreground contrast while retaining their native mask',async({page})=>{\n  52 |  await workspace(page);await page.locator('#docs-chrome').evaluate(e=>e.insertAdjacentHTML('beforeend','<span id=\"lock\" style=\"display:block;width:18px;height:18px;background:#004a77;mask-image:linear-gradient(#000,#000)\"></span>'));\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/extension.spec.cjs:49:148"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:15.779Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/extension-theme-transition-30998--suppressed-animation-frame/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/extension-theme-transition-30998--suppressed-animation-frame/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/extension-theme-transition-30998--suppressed-animation-frame/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/extension.spec.cjs",
+                    "column": 148,
+                    "line": 49
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-4acb95b029917fd1a8cb",
+          "file": "extension.spec.cjs",
+          "line": 48,
+          "column": 1
+        },
+        {
+          "title": "masked UI icons use foreground contrast while retaining their native mask",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 254,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:17.705Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-fdb3ffc08ac004004020",
+          "file": "extension.spec.cjs",
+          "line": 51,
+          "column": 1
+        },
+        {
+          "title": "file browser rows, section headings and gutters share a consistent surface",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 292,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:18.463Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "58192ff9bf43acf88964-1060774433d5e8b83e1f",
+          "file": "extension.spec.cjs",
+          "line": 55,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "manifest.spec.cjs",
+      "file": "manifest.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "real manifest injection, local storage and two-tab propagation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2375,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:18.763Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6e253b5f9860e5ac22c5-4090a993003f8426e699",
+          "file": "manifest.spec.cjs",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "more.spec.cjs",
+      "file": "more.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "slow startup cannot overwrite a newer cross-tab theme",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 422,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:21.146Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "51afddba18c5dd067623-7033f114551dcdb6499d",
+          "file": "more.spec.cjs",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "failed initial preference reads keep pages original and popup disabled",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 358,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:21.574Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "51afddba18c5dd067623-d82f036267a44ae21f25",
+          "file": "more.spec.cjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "rapid theme selection persists the last selection last",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 553,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:21.938Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "51afddba18c5dd067623-6e81f057a18cc5bdfd07",
+          "file": "more.spec.cjs",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "motion.spec.cjs",
+      "file": "motion.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "popup colors overlap in surface, ink, control order and retarget rapid input",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1174,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:22.500Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2cac27cff5dde3010054-4956d578e018d7480040",
+          "file": "motion.spec.cjs",
+          "line": 4,
+          "column": 1
+        },
+        {
+          "title": "docs: staggered snapshots keep source pixels original and release their names",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 476,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs:52:23",
+                    "location": {
+                      "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                      "column": 23,
+                      "line": 52
+                    },
+                    "snippet": "  50 |     return [15,50].map(offset=>[...ctx.getImageData(Math.round(x+offset),Math.round(y+15),1,1).data]);\n  51 |   },{png,x:box.x,y:box.y});\n> 52 |   expect(imagePixels).toEqual([[234,67,53,255],[66,133,244,255]]);\n     |                       ^\n  53 |   await page.evaluate(()=>document.getAnimations().forEach(a=>a.finish()));\n  54 |   await expect(page.locator('[data-dd-motion],html[data-dd-animating]')).toHaveCount(0);\n  55 |   await expect(page.locator('#menu-button')).toHaveCSS('view-transition-name','none');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                        "column": 23,
+                        "line": 52
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m\n\n  50 |     return [15,50].map(offset=>[...ctx.getImageData(Math.round(x+offset),Math.round(y+15),1,1).data]);\n  51 |   },{png,x:box.x,y:box.y});\n> 52 |   expect(imagePixels).toEqual([[234,67,53,255],[66,133,244,255]]);\n     |                       ^\n  53 |   await page.evaluate(()=>document.getAnimations().forEach(a=>a.finish()));\n  54 |   await expect(page.locator('[data-dd-motion],html[data-dd-animating]')).toHaveCount(0);\n  55 |   await expect(page.locator('#menu-button')).toHaveCSS('view-transition-name','none');\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs:52:23"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:23.680Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-docs-staggered-snap-caafa-nal-and-release-their-names/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-docs-staggered-snap-caafa-nal-and-release-their-names/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-docs-staggered-snap-caafa-nal-and-release-their-names/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                    "column": 23,
+                    "line": 52
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2cac27cff5dde3010054-81d6f023e4271e559d45",
+          "file": "motion.spec.cjs",
+          "line": 28,
+          "column": 37
+        },
+        {
+          "title": "sheets: staggered snapshots keep source pixels original and release their names",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 476,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs:52:23",
+                    "location": {
+                      "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                      "column": 23,
+                      "line": 52
+                    },
+                    "snippet": "  50 |     return [15,50].map(offset=>[...ctx.getImageData(Math.round(x+offset),Math.round(y+15),1,1).data]);\n  51 |   },{png,x:box.x,y:box.y});\n> 52 |   expect(imagePixels).toEqual([[234,67,53,255],[66,133,244,255]]);\n     |                       ^\n  53 |   await page.evaluate(()=>document.getAnimations().forEach(a=>a.finish()));\n  54 |   await expect(page.locator('[data-dd-motion],html[data-dd-animating]')).toHaveCount(0);\n  55 |   await expect(page.locator('#menu-button')).toHaveCSS('view-transition-name','none');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                        "column": 23,
+                        "line": 52
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m\n\n  50 |     return [15,50].map(offset=>[...ctx.getImageData(Math.round(x+offset),Math.round(y+15),1,1).data]);\n  51 |   },{png,x:box.x,y:box.y});\n> 52 |   expect(imagePixels).toEqual([[234,67,53,255],[66,133,244,255]]);\n     |                       ^\n  53 |   await page.evaluate(()=>document.getAnimations().forEach(a=>a.finish()));\n  54 |   await expect(page.locator('[data-dd-motion],html[data-dd-animating]')).toHaveCount(0);\n  55 |   await expect(page.locator('#menu-button')).toHaveCSS('view-transition-name','none');\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs:52:23"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:24.839Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-sheets-staggered-sn-45a29-nal-and-release-their-names/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-sheets-staggered-sn-45a29-nal-and-release-their-names/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-sheets-staggered-sn-45a29-nal-and-release-their-names/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                    "column": 23,
+                    "line": 52
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2cac27cff5dde3010054-b2c5f4c9b3ec0f2a0445",
+          "file": "motion.spec.cjs",
+          "line": 28,
+          "column": 37
+        },
+        {
+          "title": "slides: staggered snapshots keep source pixels original and release their names",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 469,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs:52:23",
+                    "location": {
+                      "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                      "column": 23,
+                      "line": 52
+                    },
+                    "snippet": "  50 |     return [15,50].map(offset=>[...ctx.getImageData(Math.round(x+offset),Math.round(y+15),1,1).data]);\n  51 |   },{png,x:box.x,y:box.y});\n> 52 |   expect(imagePixels).toEqual([[234,67,53,255],[66,133,244,255]]);\n     |                       ^\n  53 |   await page.evaluate(()=>document.getAnimations().forEach(a=>a.finish()));\n  54 |   await expect(page.locator('[data-dd-motion],html[data-dd-animating]')).toHaveCount(0);\n  55 |   await expect(page.locator('#menu-button')).toHaveCSS('view-transition-name','none');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                        "column": 23,
+                        "line": 52
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m\n\n  50 |     return [15,50].map(offset=>[...ctx.getImageData(Math.round(x+offset),Math.round(y+15),1,1).data]);\n  51 |   },{png,x:box.x,y:box.y});\n> 52 |   expect(imagePixels).toEqual([[234,67,53,255],[66,133,244,255]]);\n     |                       ^\n  53 |   await page.evaluate(()=>document.getAnimations().forEach(a=>a.finish()));\n  54 |   await expect(page.locator('[data-dd-motion],html[data-dd-animating]')).toHaveCount(0);\n  55 |   await expect(page.locator('#menu-button')).toHaveCSS('view-transition-name','none');\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs:52:23"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:26.406Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-slides-staggered-sn-4b952-nal-and-release-their-names/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-slides-staggered-sn-4b952-nal-and-release-their-names/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-slides-staggered-sn-4b952-nal-and-release-their-names/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                    "column": 23,
+                    "line": 52
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2cac27cff5dde3010054-2f69cc0990f45651ef16",
+          "file": "motion.spec.cjs",
+          "line": 28,
+          "column": 37
+        },
+        {
+          "title": "forms: staggered snapshots keep source pixels original and release their names",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 467,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs:52:23",
+                    "location": {
+                      "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                      "column": 23,
+                      "line": 52
+                    },
+                    "snippet": "  50 |     return [15,50].map(offset=>[...ctx.getImageData(Math.round(x+offset),Math.round(y+15),1,1).data]);\n  51 |   },{png,x:box.x,y:box.y});\n> 52 |   expect(imagePixels).toEqual([[234,67,53,255],[66,133,244,255]]);\n     |                       ^\n  53 |   await page.evaluate(()=>document.getAnimations().forEach(a=>a.finish()));\n  54 |   await expect(page.locator('[data-dd-motion],html[data-dd-animating]')).toHaveCount(0);\n  55 |   await expect(page.locator('#menu-button')).toHaveCSS('view-transition-name','none');"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                        "column": 23,
+                        "line": 52
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 5\u001b[39m\n\u001b[31m+ Received  + 5\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[32m-     234,\u001b[39m\n\u001b[32m-     67,\u001b[39m\n\u001b[32m-     53,\u001b[39m\n\u001b[31m+     235,\u001b[39m\n\u001b[31m+     68,\u001b[39m\n\u001b[31m+     54,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m    Array [\u001b[22m\n\u001b[2m      66,\u001b[22m\n\u001b[32m-     133,\u001b[39m\n\u001b[32m-     244,\u001b[39m\n\u001b[31m+     134,\u001b[39m\n\u001b[31m+     245,\u001b[39m\n\u001b[2m      255,\u001b[22m\n\u001b[2m    ],\u001b[22m\n\u001b[2m  ]\u001b[22m\n\n  50 |     return [15,50].map(offset=>[...ctx.getImageData(Math.round(x+offset),Math.round(y+15),1,1).data]);\n  51 |   },{png,x:box.x,y:box.y});\n> 52 |   expect(imagePixels).toEqual([[234,67,53,255],[66,133,244,255]]);\n     |                       ^\n  53 |   await page.evaluate(()=>document.getAnimations().forEach(a=>a.finish()));\n  54 |   await expect(page.locator('[data-dd-motion],html[data-dd-animating]')).toHaveCount(0);\n  55 |   await expect(page.locator('#menu-button')).toHaveCSS('view-transition-name','none');\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs:52:23"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:27.946Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-forms-staggered-sna-2785d-nal-and-release-their-names/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-forms-staggered-sna-2785d-nal-and-release-their-names/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/motion-forms-staggered-sna-2785d-nal-and-release-their-names/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/motion.spec.cjs",
+                    "column": 23,
+                    "line": 52
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "2cac27cff5dde3010054-70305270ffd3cc79b34d",
+          "file": "motion.spec.cjs",
+          "line": 28,
+          "column": 37
+        },
+        {
+          "title": "printing and reduced motion interrupt active page snapshots cleanly",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 729,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:29.448Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2cac27cff5dde3010054-b86a92a4d2c28faa6171",
+          "file": "motion.spec.cjs",
+          "line": 48,
+          "column": 1
+        },
+        {
+          "title": "page transitions survive rapid changes and entering the Sheets output pane",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2225,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:30.589Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "2cac27cff5dde3010054-e6c737f2828c8a100082",
+          "file": "motion.spec.cjs",
+          "line": 63,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "renderer.spec.cjs",
+      "file": "renderer.spec.cjs",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Docs/Sheets display copies recolor solid paint but keep monochrome image pixels and exports",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 879,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[31m+   24,\u001b[39m\n\u001b[31m+   4,\u001b[39m\n\u001b[31m+   2,\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[31m+   24,\u001b[39m\n\u001b[31m+   4,\u001b[39m\n\u001b[31m+   2,\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs:8:65",
+                    "location": {
+                      "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                      "column": 65,
+                      "line": 8
+                    },
+                    "snippet": "   6 |  await workspace(page);await theme(page,'oled');await page.locator('#canvas').evaluate(c=>{c.width=300;c.height=90;const ctx=c.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,300,90);ctx.fillStyle='#000';ctx.fillRect(10,10,30,30);const image=document.createElement('canvas');image.width=20;image.height=20;const ic=image.getContext('2d');const pixels=ic.createImageData(20,20);for(let i=0;i<pixels.data.length;i+=4){pixels.data[i]=pixels.data[i+1]=pixels.data[i+2]=255;pixels.data[i+3]=255;}ic.putImageData(pixels,0,0);ctx.drawImage(image,80,10);});\n   7 |  await expect(page.locator('darkerdocs-surface')).not.toHaveCount(0);const box=await page.locator('#canvas').boundingBox();\n>  8 |  expect((await visualPixel(page,box.x+60,box.y+50)).slice(0,3)).toEqual([0,0,0]);expect((await visualPixel(page,box.x+20,box.y+20)).slice(0,3)).toEqual([232,234,237]);expect((await visualPixel(page,box.x+85,box.y+15)).slice(0,3)).toEqual([255,255,255]);\n     |                                                                 ^\n   9 |  const native=await page.locator('#canvas').evaluate(c=>[...c.getContext('2d').getImageData(60,50,1,1).data]);expect(native).toEqual([255,255,255,255]);\n  10 |  await theme(page,'cream');expect((await visualPixel(page,box.x+60,box.y+50)).slice(0,3)).toEqual([255,228,183]);expect((await visualPixel(page,box.x+85,box.y+15)).slice(0,3)).toEqual([255,255,255]);\n  11 | });"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                        "column": 65,
+                        "line": 8
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[31m+   24,\u001b[39m\n\u001b[31m+   4,\u001b[39m\n\u001b[31m+   2,\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n   6 |  await workspace(page);await theme(page,'oled');await page.locator('#canvas').evaluate(c=>{c.width=300;c.height=90;const ctx=c.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,300,90);ctx.fillStyle='#000';ctx.fillRect(10,10,30,30);const image=document.createElement('canvas');image.width=20;image.height=20;const ic=image.getContext('2d');const pixels=ic.createImageData(20,20);for(let i=0;i<pixels.data.length;i+=4){pixels.data[i]=pixels.data[i+1]=pixels.data[i+2]=255;pixels.data[i+3]=255;}ic.putImageData(pixels,0,0);ctx.drawImage(image,80,10);});\n   7 |  await expect(page.locator('darkerdocs-surface')).not.toHaveCount(0);const box=await page.locator('#canvas').boundingBox();\n>  8 |  expect((await visualPixel(page,box.x+60,box.y+50)).slice(0,3)).toEqual([0,0,0]);expect((await visualPixel(page,box.x+20,box.y+20)).slice(0,3)).toEqual([232,234,237]);expect((await visualPixel(page,box.x+85,box.y+15)).slice(0,3)).toEqual([255,255,255]);\n     |                                                                 ^\n   9 |  const native=await page.locator('#canvas').evaluate(c=>[...c.getContext('2d').getImageData(60,50,1,1).data]);expect(native).toEqual([255,255,255,255]);\n  10 |  await theme(page,'cream');expect((await visualPixel(page,box.x+60,box.y+50)).slice(0,3)).toEqual([255,228,183]);expect((await visualPixel(page,box.x+85,box.y+15)).slice(0,3)).toEqual([255,255,255]);\n  11 | });\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs:8:65"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:32.824Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-Docs-Sheets-displ-5cefa-me-image-pixels-and-exports/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-Docs-Sheets-displ-5cefa-me-image-pixels-and-exports/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-Docs-Sheets-displ-5cefa-me-image-pixels-and-exports/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                    "column": 65,
+                    "line": 8
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-974c1d3ab26846e4fa8d",
+          "file": "renderer.spec.cjs",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "offscreen drawing replay updates nested text tiles across themes",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 893,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[31m+   25,\u001b[39m\n\u001b[31m+   4,\u001b[39m\n\u001b[31m+   2,\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[31m+   25,\u001b[39m\n\u001b[31m+   4,\u001b[39m\n\u001b[31m+   2,\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs:14:119",
+                    "location": {
+                      "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                      "column": 119,
+                      "line": 14
+                    },
+                    "snippet": "  12 | test('offscreen drawing replay updates nested text tiles across themes',async({page})=>{\n  13 |  await workspace(page);await theme(page,'oled');await page.locator('#canvas').evaluate(c=>{c.width=300;const src=document.createElement('canvas');src.width=60;src.height=60;const s=src.getContext('2d');s.fillStyle='#fff';s.fillRect(0,0,60,60);s.fillStyle='#000';s.fillRect(10,10,20,20);c.getContext('2d').drawImage(src,0,0);});\n> 14 |  const box=await page.locator('#canvas').boundingBox();expect((await visualPixel(page,box.x+45,box.y+45)).slice(0,3)).toEqual([0,0,0]);await theme(page,'cream');expect((await visualPixel(page,box.x+45,box.y+45)).slice(0,3)).toEqual([255,228,183]);\n     |                                                                                                                       ^\n  15 | });\n  16 | test('canvas width resets, clipping and transforms preserve native serialization',async({page})=>{\n  17 |  await workspace(page);await theme(page,'dark');const original=await page.locator('#canvas').evaluate(c=>{c.setAttribute('width','300');const x=c.getContext('2d');x.save();x.translate(20,10);x.beginPath();x.rect(0,0,50,50);x.clip();x.fillStyle='#fff';x.fillRect(0,0,100,100);x.restore();return c.toDataURL();});"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                        "column": 119,
+                        "line": 14
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[32m-   0,\u001b[39m\n\u001b[31m+   25,\u001b[39m\n\u001b[31m+   4,\u001b[39m\n\u001b[31m+   2,\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  12 | test('offscreen drawing replay updates nested text tiles across themes',async({page})=>{\n  13 |  await workspace(page);await theme(page,'oled');await page.locator('#canvas').evaluate(c=>{c.width=300;const src=document.createElement('canvas');src.width=60;src.height=60;const s=src.getContext('2d');s.fillStyle='#fff';s.fillRect(0,0,60,60);s.fillStyle='#000';s.fillRect(10,10,20,20);c.getContext('2d').drawImage(src,0,0);});\n> 14 |  const box=await page.locator('#canvas').boundingBox();expect((await visualPixel(page,box.x+45,box.y+45)).slice(0,3)).toEqual([0,0,0]);await theme(page,'cream');expect((await visualPixel(page,box.x+45,box.y+45)).slice(0,3)).toEqual([255,228,183]);\n     |                                                                                                                       ^\n  15 | });\n  16 | test('canvas width resets, clipping and transforms preserve native serialization',async({page})=>{\n  17 |  await workspace(page);await theme(page,'dark');const original=await page.locator('#canvas').evaluate(c=>{c.setAttribute('width','300');const x=c.getContext('2d');x.save();x.translate(20,10);x.beginPath();x.rect(0,0,50,50);x.clip();x.fillStyle='#fff';x.fillRect(0,0,100,100);x.restore();return c.toDataURL();});\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs:14:119"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:34.345Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-offscreen-drawing-93887-ed-text-tiles-across-themes/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-offscreen-drawing-93887-ed-text-tiles-across-themes/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-offscreen-drawing-93887-ed-text-tiles-across-themes/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                    "column": 119,
+                    "line": 14
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-04fc3efd15e95ee40691",
+          "file": "renderer.spec.cjs",
+          "line": 12,
+          "column": 1
+        },
+        {
+          "title": "canvas width resets, clipping and transforms preserve native serialization",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2751,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:36.243Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-92b6bdd133f2c301b473",
+          "file": "renderer.spec.cjs",
+          "line": 16,
+          "column": 1
+        },
+        {
+          "title": "oversized replay preserves a readable original surface and reports a reload fallback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1270,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:39.375Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-cd8f8c6fd6d388fe10f9",
+          "file": "renderer.spec.cjs",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "large scratch tiles and repeated cropped draws stay themed across scrolling and theme switches",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1309,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   255,\u001b[39m\n\u001b[32m-   228,\u001b[39m\n\u001b[32m-   183,\u001b[39m\n\u001b[31m+   216,\u001b[39m\n\u001b[31m+   193,\u001b[39m\n\u001b[31m+   155,\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   255,\u001b[39m\n\u001b[32m-   228,\u001b[39m\n\u001b[32m-   183,\u001b[39m\n\u001b[31m+   216,\u001b[39m\n\u001b[31m+   193,\u001b[39m\n\u001b[31m+   155,\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs:27:309",
+                    "location": {
+                      "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                      "column": 309,
+                      "line": 27
+                    },
+                    "snippet": "  25 | test('large scratch tiles and repeated cropped draws stay themed across scrolling and theme switches',async({page})=>{\n  26 |  await workspace(page,'sheets','oled');await theme(page,'oled');await page.locator('#canvas').evaluate(c=>{c.width=300;c.height=100;const tile=document.createElement('canvas');tile.width=4000;tile.height=2000;const x=tile.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,4000,2000);const out=c.getContext('2d');for(let i=0;i<100;i++)out.drawImage(tile,0,0,30,30,0,0,30,30);});\n> 27 |  await expect(page.locator('#canvas')).not.toHaveAttribute('data-dd-canvas-fallback');await theme(page,'cream');await expect(page.locator('#canvas')).not.toHaveAttribute('data-dd-canvas-fallback');const b=await page.locator('#canvas').boundingBox();expect((await visualPixel(page,b.x+10,b.y+10)).slice(0,3)).toEqual([255,228,183]);\n     |                                                                                                                                                                                                                                                                                                                     ^\n  28 | });\n  29 | test('repeated image repainting reuses an unchanged image and preserves its pixels',async({page})=>{\n  30 |  await workspace(page,'docs','oled');await theme(page,'oled');await page.locator('#canvas').evaluate(async c=>{c.width=300;c.height=100;const source=document.createElement('canvas');source.width=400;source.height=400;const x=source.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,400,400);const image=new Image();image.src=source.toDataURL();await image.decode();for(let i=0;i<100;i++)c.getContext('2d').drawImage(image,0,0,50,50);});"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                        "column": 309,
+                        "line": 27
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   255,\u001b[39m\n\u001b[32m-   228,\u001b[39m\n\u001b[32m-   183,\u001b[39m\n\u001b[31m+   216,\u001b[39m\n\u001b[31m+   193,\u001b[39m\n\u001b[31m+   155,\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  25 | test('large scratch tiles and repeated cropped draws stay themed across scrolling and theme switches',async({page})=>{\n  26 |  await workspace(page,'sheets','oled');await theme(page,'oled');await page.locator('#canvas').evaluate(c=>{c.width=300;c.height=100;const tile=document.createElement('canvas');tile.width=4000;tile.height=2000;const x=tile.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,4000,2000);const out=c.getContext('2d');for(let i=0;i<100;i++)out.drawImage(tile,0,0,30,30,0,0,30,30);});\n> 27 |  await expect(page.locator('#canvas')).not.toHaveAttribute('data-dd-canvas-fallback');await theme(page,'cream');await expect(page.locator('#canvas')).not.toHaveAttribute('data-dd-canvas-fallback');const b=await page.locator('#canvas').boundingBox();expect((await visualPixel(page,b.x+10,b.y+10)).slice(0,3)).toEqual([255,228,183]);\n     |                                                                                                                                                                                                                                                                                                                     ^\n  28 | });\n  29 | test('repeated image repainting reuses an unchanged image and preserves its pixels',async({page})=>{\n  30 |  await workspace(page,'docs','oled');await theme(page,'oled');await page.locator('#canvas').evaluate(async c=>{c.width=300;c.height=100;const source=document.createElement('canvas');source.width=400;source.height=400;const x=source.getContext('2d');x.fillStyle='#fff';x.fillRect(0,0,400,400);const image=new Image();image.src=source.toDataURL();await image.decode();for(let i=0;i<100;i++)c.getContext('2d').drawImage(image,0,0,50,50);});\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs:27:309"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:40.652Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-large-scratch-til-6d714-crolling-and-theme-switches/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-large-scratch-til-6d714-crolling-and-theme-switches/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-large-scratch-til-6d714-crolling-and-theme-switches/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                    "column": 309,
+                    "line": 27
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-9ed973a98c8fdf97a8c7",
+          "file": "renderer.spec.cjs",
+          "line": 25,
+          "column": 1
+        },
+        {
+          "title": "repeated image repainting reuses an unchanged image and preserves its pixels",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1292,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:42.613Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-1d6da7f71d567015f6df",
+          "file": "renderer.spec.cjs",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "ambiguous gradient artwork preserves its whole surface without changing native drawing",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 876,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:44.285Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-0ab1e03db2b1205c061e",
+          "file": "renderer.spec.cjs",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "complete repaints release obsolete image history without losing paths or state",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 1404,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   63,\u001b[39m\n\u001b[32m-   42,\u001b[39m\n\u001b[32m-   24,\u001b[39m\n\u001b[31m+   98,\u001b[39m\n\u001b[31m+   81,\u001b[39m\n\u001b[31m+   68,\u001b[39m\n\u001b[2m  ]\u001b[22m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   63,\u001b[39m\n\u001b[32m-   42,\u001b[39m\n\u001b[32m-   24,\u001b[39m\n\u001b[31m+   98,\u001b[39m\n\u001b[31m+   81,\u001b[39m\n\u001b[31m+   68,\u001b[39m\n\u001b[2m  ]\u001b[22m\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs:40:225",
+                    "location": {
+                      "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                      "column": 225,
+                      "line": 40
+                    },
+                    "snippet": "  38 | test('complete repaints release obsolete image history without losing paths or state',async({page})=>{\n  39 |  await workspace(page);await theme(page,'oled');await page.locator('#canvas').evaluate(c=>{c.width=300;c.height=100;const source=document.createElement('canvas');source.width=1000;source.height=1000;source.getContext('2d').fillRect(0,0,1000,1000);const x=c.getContext('2d');for(let i=0;i<5;i++){x.clearRect(0,0,300,100);x.drawImage(source,0,0,100,100);}x.beginPath();x.rect(110,10,20,20);x.clearRect(0,0,300,100);x.fillStyle='#000';x.fill();});\n> 40 |  await expect(page.locator('#canvas')).not.toHaveAttribute('data-dd-canvas-fallback');await theme(page,'cream');const b=await page.locator('#canvas').boundingBox();expect((await visualPixel(page,b.x+120,b.y+20)).slice(0,3)).toEqual([63,42,24]);\n     |                                                                                                                                                                                                                                 ^\n  41 | });\n  42 | for(const mode of ['oled','dark','default','cream'])test(`Sheets in-app print preview stays original and restores ${mode} on exit`,async({page})=>{\n  43 |  await workspace(page,'sheets',mode);await theme(page,mode);const native=await page.locator('#canvas').evaluate(c=>c.toDataURL());"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                        "column": 225,
+                        "line": 40
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n\u001b[32m- Expected  - 3\u001b[39m\n\u001b[31m+ Received  + 3\u001b[39m\n\n\u001b[2m  Array [\u001b[22m\n\u001b[32m-   63,\u001b[39m\n\u001b[32m-   42,\u001b[39m\n\u001b[32m-   24,\u001b[39m\n\u001b[31m+   98,\u001b[39m\n\u001b[31m+   81,\u001b[39m\n\u001b[31m+   68,\u001b[39m\n\u001b[2m  ]\u001b[22m\n\n  38 | test('complete repaints release obsolete image history without losing paths or state',async({page})=>{\n  39 |  await workspace(page);await theme(page,'oled');await page.locator('#canvas').evaluate(c=>{c.width=300;c.height=100;const source=document.createElement('canvas');source.width=1000;source.height=1000;source.getContext('2d').fillRect(0,0,1000,1000);const x=c.getContext('2d');for(let i=0;i<5;i++){x.clearRect(0,0,300,100);x.drawImage(source,0,0,100,100);}x.beginPath();x.rect(110,10,20,20);x.clearRect(0,0,300,100);x.fillStyle='#000';x.fill();});\n> 40 |  await expect(page.locator('#canvas')).not.toHaveAttribute('data-dd-canvas-fallback');await theme(page,'cream');const b=await page.locator('#canvas').boundingBox();expect((await visualPixel(page,b.x+120,b.y+20)).slice(0,3)).toEqual([63,42,24]);\n     |                                                                                                                                                                                                                                 ^\n  41 | });\n  42 | for(const mode of ['oled','dark','default','cream'])test(`Sheets in-app print preview stays original and restores ${mode} on exit`,async({page})=>{\n  43 |  await workspace(page,'sheets',mode);await theme(page,mode);const native=await page.locator('#canvas').evaluate(c=>c.toDataURL());\n    at /Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs:40:225"
+                    },
+                    {
+                      "message": "Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, open '/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/.playwright-artifacts-8/traces/ee4a5f02a18d03733769-4baa77711ed839b6babb-recording2.trace'"
+                    },
+                    {
+                      "message": "Error: ENOENT: no such file or directory, open '/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/.playwright-artifacts-8/b578ec5d948680269ef436228cabb871.zip'"
+                    },
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:08:45.168Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-complete-repaints-e2d7d-thout-losing-paths-or-state/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/test-results/renderer-complete-repaints-e2d7d-thout-losing-paths-or-state/error-context.md"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/betannet/Developer/Browser Extentions/DarkerDocs/tests/renderer.spec.cjs",
+                    "column": 225,
+                    "line": 40
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-4baa77711ed839b6babb",
+          "file": "renderer.spec.cjs",
+          "line": 38,
+          "column": 1
+        },
+        {
+          "title": "Sheets in-app print preview stays original and restores oled on exit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 348,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:09:17.275Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-57456d532fe064c64bb8",
+          "file": "renderer.spec.cjs",
+          "line": 42,
+          "column": 53
+        },
+        {
+          "title": "Sheets in-app print preview stays original and restores dark on exit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 264,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:09:18.159Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-453c0563167bbf922062",
+          "file": "renderer.spec.cjs",
+          "line": 42,
+          "column": 53
+        },
+        {
+          "title": "Sheets in-app print preview stays original and restores default on exit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 242,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:09:18.429Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-e9a0524b04634e0e3ea7",
+          "file": "renderer.spec.cjs",
+          "line": 42,
+          "column": 53
+        },
+        {
+          "title": "Sheets in-app print preview stays original and restores cream on exit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 253,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-16T19:09:18.677Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ee4a5f02a18d03733769-aa30a46a19351b6450b4",
+          "file": "renderer.spec.cjs",
+          "line": 42,
+          "column": 53
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-16T19:04:45.925Z",
+    "duration": 273042.817,
+    "expected": 48,
+    "skipped": 0,
+    "unexpected": 9,
+    "flaky": 0
+  }
+}

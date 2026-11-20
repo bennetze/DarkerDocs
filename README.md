@@ -2,7 +2,7 @@
 
 # DarkerDocs
 
-A local-only Manifest V3 extension for Google Workspace in Helium. **Version 0.3.0** themes document pages, spreadsheet grids, application controls, Forms and the settings panel. Slides keep their original artwork.
+A local-only Manifest V3 extension for Google Workspace in Helium. **Version 0.3.1** themes document pages, spreadsheet grids, application controls, Forms and the settings panel. Slides keep their original artwork.
 
 <img src="artifacts/screenshots/popup-dark.png" alt="DarkerDocs popup preview in Dark Grey (automated fixture)" width="398">
 
@@ -13,9 +13,9 @@ A local-only Manifest V3 extension for Google Workspace in Helium. **Version 0.3
 3. Reload already-open supported Google Workspace tabs once.
 4. Open **Extensions → DarkerDocs** to choose a theme.
 
-For the installation ZIP, extract **artifacts/DarkerDocs-0.3.0.zip** into a permanent folder, then load the extracted folder containing manifest.json. Keep that folder in place. This is an unpacked development extension, not a marketplace package.
+For the installation ZIP, extract **artifacts/DarkerDocs-0.3.1.zip** into a permanent folder, then load the extracted folder containing manifest.json. Keep that folder in place. This is an unpacked development extension, not a marketplace package.
 
-When updating an existing installation, choose **Reload** on DarkerDocs in the extension manager, then reload the Workspace tabs. There are no new permissions in 0.3.0.
+When updating an existing installation, choose **Reload** on DarkerDocs in the extension manager, then reload the Workspace tabs. Version 0.3.1 keeps the existing storage-only permission.
 
 ## Appearance
 
@@ -57,24 +57,34 @@ The original icon design is retained in **assets/DarkerDocs.png**. Optimized, tr
 
 Roboto and its [SIL Open Font License](extension/assets/Roboto-OFL.txt) are bundled locally. DarkerDocs is independent of Google and Helium.
 
-Open **Help & diagnostics** in the popup for renderer status, fallback reasons, estimated resources and a **Copy diagnostics** action. Only existing scoped content scripts respond. The fixed export schema excludes document text, file URLs, tab titles, class names and unrelated tabs; no clipboard permission is requested. If clipboard access is unavailable, the page selects the diagnostic text for manual copying.
+Open **Help & diagnostics** in the popup to see the selected theme and the appearance each responding page is showing, including original output views and preservation fallbacks. The page also reports fallback reasons and estimated renderer resources. **Copy diagnostics** copies a fixed set of fields from scoped content scripts and omits document text, URLs, tab titles and class names. If clipboard access is unavailable, the page selects the diagnostic text for manual copying.
 
 ## Develop and verify
 
-The delivered extension folder is ready to load. Rebuild after editing shared/core.js or content/renderer.js; the generated renderer.bundle.js is the MAIN-world entry.
+The delivered extension folder is ready to load. Using the extension requires no Node, npm, Python or installed packages. Editing the vanilla JavaScript, CSS and HTML requires no npm modules. Building, packaging and release verification use only Python 3 and its standard library:
 
-    npm ci
-    npx playwright install chromium
-    npm run build
+    python3 scripts/build.py
+    python3 scripts/package.py
+    python3 scripts/verify_release.py
+
+Rebuild after editing shared/core.js or content/renderer.js; the generated renderer.bundle.js is the MAIN-world entry. Run the build before packaging. The `npm run build`, `npm run package` and `npm run verify:release` aliases remain available, but installing npm modules is unnecessary for these commands.
+
+Node's built-in test runner needs no installed npm modules:
+
+    node --test tests/*.test.cjs
+
+Only browser tests and the synthetic performance benchmark need third-party npm modules. The sole direct dependency is pinned `@playwright/test`; its Playwright dependencies are also testing-only. Install these only when running those checks:
+
+    npm ci --ignore-scripts --omit=optional
+    npx --no-install playwright install chromium
     npm test
     npm run test:browser
     npm run benchmark
-    npm run package
-    npm run verify:release
-    npm run format:check
 
-Packaging is deterministic and allowlisted. It checks version consistency and the generated MAIN bundle, verifies each ZIP entry against source, and writes SHA-256 and per-file verification metadata. The GitHub Actions workflow runs formatting, build, Node and browser checks, the synthetic benchmark, and package verification when this repository is hosted on GitHub.
+The install command disables package lifecycle scripts and omits optional dependencies (including the macOS file watcher). Chromium is explicitly installed for isolated testing. No formatter, bundler or other development/build npm package is required or installed.
 
-Node and Python 3 are used by the development tools. Playwright and Prettier are development dependencies only. Run `npm run format` to format handwritten runtime code and tests; the generated MAIN bundle is excluded. Automated tests use synthetic pages and isolated Chromium profiles; they never automate the signed-in Helium profile.
+Packaging is deterministic and allowlisted. It checks version consistency and the generated MAIN bundle, verifies each ZIP entry against source, and writes SHA-256 and per-file verification metadata. The GitHub Actions workflow builds, runs Node checks and verifies the package before installing any npm modules, then runs browser checks and the synthetic benchmark when this repository is hosted on GitHub.
+
+Keep handwritten source formatting consistent manually; no formatter package is used. Automated tests use synthetic pages and isolated Chromium profiles; they never automate the signed-in Helium profile.
 
 See the [test report](docs/TEST_REPORT.md) for automated checks, transition and icon-refresh validation, native Helium evidence, output PDFs, preservation fallbacks and remaining live-matrix gaps. Native 0.2.0 captures are under **artifacts/v0.2/**; synthetic regression screenshots are under **artifacts/screenshots/**. Screenshots, document links, PDFs and development dependencies are excluded from the installation ZIP.

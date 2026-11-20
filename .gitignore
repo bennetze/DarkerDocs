@@ -1,0 +1,31 @@
+# Local tooling
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
+npm-debug.log*
+
+# Playwright run output
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# Generated synthetic captures. Keep the README preview and PDF verification.
+/artifacts/screenshots/*.png
+!/artifacts/screenshots/popup-dark.png
+!/artifacts/screenshots/live-*.png
+/artifacts/synthetic-output/*.pdf
+/artifacts/synthetic-output/*-print.png
+
+# Generated packages. Keep the release files cited by the test report.
+/artifacts/DarkerDocs-*.zip
+/artifacts/DarkerDocs-*.sha256
+/artifacts/DarkerDocs-*.verification.json
+!/artifacts/DarkerDocs-0.2.1.zip
+!/artifacts/DarkerDocs-0.2.1.sha256
+!/artifacts/DarkerDocs-0.3.0.zip
+!/artifacts/DarkerDocs-0.3.0.sha256
+!/artifacts/DarkerDocs-0.3.0.verification.json
+!/artifacts/DarkerDocs-0.3.1.zip
+!/artifacts/DarkerDocs-0.3.1.sha256
+!/artifacts/DarkerDocs-0.3.1.verification.json

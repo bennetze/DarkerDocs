@@ -1,0 +1,36 @@
+name: Verify DarkerDocs
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python3 scripts/build.py
+      - run: node --test tests/*.test.cjs
+      - run: python3 scripts/package.py
+      - run: python3 scripts/verify_release.py
+      - run: npm ci --ignore-scripts --omit=optional
+      - run: npx --no-install playwright install --with-deps chromium
+      - run: npm run test:browser
+      - run: npm run benchmark
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification
+          path: |
+            artifacts/browser-results.json
+            artifacts/performance.json
+            artifacts/DarkerDocs-*.zip
+            artifacts/DarkerDocs-*.sha256
+            artifacts/DarkerDocs-*.verification.json
+            test-results/

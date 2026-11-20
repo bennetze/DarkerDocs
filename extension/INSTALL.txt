@@ -1,0 +1,20 @@
+DarkerDocs 0.3.1 — Helium installation
+
+1. Extract this ZIP into a permanent folder.
+2. In Helium open chrome://extensions.
+3. Enable Developer mode.
+4. Choose Load unpacked and select the extracted folder containing manifest.json.
+5. Reload existing Google Docs, Sheets, Slides and Forms tabs.
+6. Open Extensions → DarkerDocs and choose your theme.
+
+Upgrade: choose Reload on DarkerDocs in the extension manager, then reload the supported tabs.
+
+Four stops: OLED Black → Dark Grey → Default → Cream. First use is Dark Grey.
+Settings stay local. Images, saved document colors and print/export appearance stay original.
+The extension requests storage and only the four supported docs.google.com app paths.
+No marketplace publication, telemetry or account synchronization.
+
+Source, installation notes and verification report are provided with the project.
+Roboto licensing is included in assets/Roboto-OFL.txt.
+
+Help & diagnostics is available in the popup. Retry recovers failed preference reads/writes.

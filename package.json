@@ -1,0 +1,19 @@
+{
+  "name": "darkerdocs",
+  "version": "0.3.1",
+  "private": true,
+  "description": "Dependency-free Google Workspace appearance extension for Helium",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "test:browser": "playwright test",
+    "package": "python3 scripts/package.py",
+    "build": "python3 scripts/build.py",
+    "pretest:browser": "python3 scripts/build.py",
+    "prepackage": "python3 scripts/build.py",
+    "verify:release": "python3 scripts/verify_release.py",
+    "benchmark": "node scripts/benchmark.cjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2"
+  }
+}

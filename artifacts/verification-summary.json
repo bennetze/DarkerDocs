@@ -1,0 +1,35 @@
+{
+  "version": "0.3.1",
+  "checkedAtUtc": "2026-11-20T15:19:55.431751+00:00",
+  "node": {
+    "passed": 7,
+    "failed": 0
+  },
+  "browser": {
+    "startTime": "2026-11-20T15:14:26.834Z",
+    "duration": 258670.88199999998,
+    "expected": 85,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "popupLayout": {
+    "width": 384,
+    "height": 574
+  },
+  "pdfs": {
+    "count": 16,
+    "pagesEach": 1,
+    "renderMatchesDefault": true,
+    "renderMatchesPriorDefault": true
+  },
+  "package": {
+    "entries": 21,
+    "sha256": "b2bfda5b6bc6c0f57c77e9681797efbd887a21a29fb029195eeee91dcf851861",
+    "matchesSource": true,
+    "deterministic": true
+  },
+  "liveCoverage": "0.3.1 unverified in signed-in Helium; see docs/TEST_REPORT.md for earlier evidence",
+  "formsSubmission": "blocked by unpublished fixture",
+  "remoteCI": "configured, unverified"
+}

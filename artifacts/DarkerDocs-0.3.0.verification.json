@@ -1,0 +1,28 @@
+{
+  "version": "0.3.0",
+  "archive": "DarkerDocs-0.3.0.zip",
+  "sha256": "2c9b28fd1eb056442b3b48b35f808f420485c713fcc05bfee9c81fb9b74ff3ca",
+  "files": {
+    "INSTALL.txt": "932d901d961cb730d9fe03a06ed0363203c87bdd5b737e17867e1998a253814c",
+    "assets/Roboto-OFL.txt": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "assets/Roboto.ttf": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+    "assets/icon-128.png": "ac8f0764485ac35128be49d8c4ff62b17c0325bba8dad87b893679896bdb1873",
+    "assets/icon-16.png": "8ecc5c47587bc5e27d0363dd740885b8795e7fae2b9658fb985f9d2ef12bf8c0",
+    "assets/icon-32.png": "ffaca8e483db0e35b2d198d8186764100ba4bd29bee275935f0b0c0a95d864b7",
+    "assets/icon-48.png": "34af9a5d345b5a2e8e6192cf5878cc9c46b51ecfcc37c14f77a16145fef44e1b",
+    "assets/icon-64.png": "725b89571064a32e584fcec0c8cd93595bc53e75405e94dc3daf2421621c562c",
+    "content/content.css": "be4a680a44209c9fdfc11ac6262b24773866a8b31185a305e77e98f02ca20535",
+    "content/content.js": "eee4b47dfd9cbd324b7e51993451bd7b917c33d0b43765a3ffe29dcdc6294377",
+    "content/renderer.bundle.js": "6ca0e7a1fcba0bc9697079535734c8d9b8412262d80913066489d68a7100bd49",
+    "content/renderer.js": "dcf25c91b9af5483ed46d9f31b12f990dff345d34828c8a3e6a5ccfffe967181",
+    "diagnostics.css": "6553470f9149630ca5d7fe7457282deb97daf04cde20ece4e60bcc3436478b7f",
+    "diagnostics.html": "f39432e13ecb7b4a190072635eea92323c138668a0980830d1a8632e9eb885a2",
+    "diagnostics.js": "02b8f2caa1062e9302717d53520f55e377ed373b369d25b5eaacf874e1cb18b5",
+    "manifest.json": "834fcc636b198fd56996b4e8595b3f5f24221fddab8eec06ae5f7b3f396884d6",
+    "popup/popup.css": "6da3855ccbff8f5e0e504e3c191ab72409bc99d0e251f3fcdb4bceb1688bd8e9",
+    "popup/popup.html": "280beb2506648df69eb40e2415b7c04ce10b025629222664763c85292ac51c0c",
+    "popup/popup.js": "6065a1e474983874cd436aab69fc487cc78abb801dcc90da3fc179217d88d2f4",
+    "shared/core.js": "785cafd43032822ade1e502f70fe57670beadee44021ade60815fe78d09a094e",
+    "shared/themes.css": "031be7b86763d23a6f56e75affb07cd258e9530f17281ea5a0b45dc53c1e8ca4"
+  }
+}

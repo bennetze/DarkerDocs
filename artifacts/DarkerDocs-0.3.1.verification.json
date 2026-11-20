@@ -1,0 +1,28 @@
+{
+  "version": "0.3.1",
+  "archive": "DarkerDocs-0.3.1.zip",
+  "sha256": "b2bfda5b6bc6c0f57c77e9681797efbd887a21a29fb029195eeee91dcf851861",
+  "files": {
+    "INSTALL.txt": "b9884b42fab482e94cd887bc54aff977628b8c2c9517af0ff10a09152c996a61",
+    "assets/Roboto-OFL.txt": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41",
+    "assets/Roboto.ttf": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+    "assets/icon-128.png": "ac8f0764485ac35128be49d8c4ff62b17c0325bba8dad87b893679896bdb1873",
+    "assets/icon-16.png": "8ecc5c47587bc5e27d0363dd740885b8795e7fae2b9658fb985f9d2ef12bf8c0",
+    "assets/icon-32.png": "ffaca8e483db0e35b2d198d8186764100ba4bd29bee275935f0b0c0a95d864b7",
+    "assets/icon-48.png": "34af9a5d345b5a2e8e6192cf5878cc9c46b51ecfcc37c14f77a16145fef44e1b",
+    "assets/icon-64.png": "725b89571064a32e584fcec0c8cd93595bc53e75405e94dc3daf2421621c562c",
+    "content/content.css": "e573c871ef7de0bfc396902f970b2bb37e50e439956b915d2821783503c045c3",
+    "content/content.js": "b15d14e1e6e97cfda7648c8ca62333cc87585b40003935280b87111be126eb15",
+    "content/renderer.bundle.js": "f19f3379e7eca685a653362f329e32f5aee6fa4ab2c71f022964798592d84785",
+    "content/renderer.js": "9a7f2345fe83cda7c41d1fb29a86bb15ca48bae58316acc920954bcebd533a73",
+    "diagnostics.css": "6553470f9149630ca5d7fe7457282deb97daf04cde20ece4e60bcc3436478b7f",
+    "diagnostics.html": "f39432e13ecb7b4a190072635eea92323c138668a0980830d1a8632e9eb885a2",
+    "diagnostics.js": "26d227297ec0237acf040a9d2c1caafa1afc72ee6320a6e31c1bbb5cc04f1e8a",
+    "manifest.json": "23b07f58a683ad8264b0bf79f18572474cf59daba19d19b8be74dbeb17f438c2",
+    "popup/popup.css": "6da3855ccbff8f5e0e504e3c191ab72409bc99d0e251f3fcdb4bceb1688bd8e9",
+    "popup/popup.html": "280beb2506648df69eb40e2415b7c04ce10b025629222664763c85292ac51c0c",
+    "popup/popup.js": "ba36a97cc21e9a3e72100c179c23becc751951d200dc32e4e4c33d8a26e3899f",
+    "shared/core.js": "a40903ada66d3620d17431ca7656ef929037df100406abf9b9640ebd22dfd7db",
+    "shared/themes.css": "031be7b86763d23a6f56e75affb07cd258e9530f17281ea5a0b45dc53c1e8ca4"
+  }
+}

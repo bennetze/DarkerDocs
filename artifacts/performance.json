@@ -1,0 +1,46 @@
+{
+  "fixture": {
+    "domCells": 3000,
+    "canvases": 16,
+    "drawIterations": 40,
+    "themeChanges": 12
+  },
+  "draw": {
+    "medianMs": 0.30000001192092896,
+    "p95Ms": 0.5
+  },
+  "themeChange": {
+    "medianMs": 137.19999998807907,
+    "p95Ms": 447.09999999403954
+  },
+  "themeChangeDom": {
+    "medianMs": 2.7000000178813934,
+    "p95Ms": 54.79999998211861
+  },
+  "themeChangeRenderer": {
+    "medianMs": 128,
+    "p95Ms": 187.7000000178814
+  },
+  "resources": {
+    "surfaces": 17,
+    "painted": 1284,
+    "overflow": 0,
+    "preserved": 0,
+    "reasons": {},
+    "operations": 1320,
+    "bitmapBytes": 8496608,
+    "retainedBytes": 8578598,
+    "scratchBytes": 0,
+    "limitBytes": 100663296
+  },
+  "colorRules": 321,
+  "popupLayout": {
+    "width": 384,
+    "height": 574
+  },
+  "environment": {
+    "browser": "145.0.7632.6",
+    "platform": "darwin",
+    "arch": "arm64"
+  }
+}
